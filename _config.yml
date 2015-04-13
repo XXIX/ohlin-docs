@@ -1,0 +1,9 @@
+# Site settings
+email: studio@xxix.co
+description: > # this means to ignore newlines until "baseurl:"
+  These are some simple docs that tell you how to update [ohlin-d.com](http://www.ohlin-d.com). It covers things like managing products, image specs, and editing content.
+baseurl: "/ohlin-docs" # the subpath of your site, e.g. /blog/
+client: "OHLIN/D Docs"
+
+# Build settings
+markdown: kramdown
