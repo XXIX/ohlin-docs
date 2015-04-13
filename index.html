@@ -13,7 +13,7 @@ layout: default
         <ul class="mod-post-list" id="nav">
           <li class="post current"><a class="post-link" href="#post-0">Introduction</a></li>
           {% for post in site.posts reversed %}
-            <li class="post"><a class="post-link" href="#post-{{ forloop.index }}">{{ post.title }}</a></li>
+            <li class="post"><a class="post-link" href="#section-{{ post.title | downcase | handleize }}">{{ post.title }}</a></li>
           {% endfor %}
         </ul>
       </div>
@@ -38,7 +38,7 @@ layout: default
   </div>
 
   {% for post in site.posts reversed %}
-    <div class="page-post" id="post-{{ forloop.index }}">
+    <div class="page-post" id="section-{{ post.title | downcase | handleize }}">
       <div class="section">
         <div class="head">
           <div class="article">

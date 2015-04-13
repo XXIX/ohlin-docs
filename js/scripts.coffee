@@ -49,8 +49,6 @@ $ ->
       $('#page-nav').removeClass('active')
       enableBodyScroll()
     changeHash: true
-    scrollChange: ($currentListItem) ->
-      window.location.hash = $currentListItem.find('a').attr('href')
 
   if window.location.hash != undefined or window.location.hash != ""
     $('html, body').css
