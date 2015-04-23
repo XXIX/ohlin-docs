@@ -84,8 +84,8 @@
     z-index: 10
 
   .logo
-    background: transparent url('../img/logo-160x160.png') no-repeat center center
-    +background-size(60px 60px)
+    background-image: url('../img/logo-160x160.png')
+    background-size: cover
     +border-box
     float: left
     height: 80px
@@ -134,7 +134,7 @@
 
     .logo
       background-color: $xxix-black
-      background-image: url('../img/logo-600x600.png')
+      background-image: url('../img/logo-600x600.png') !important
       +background-size(300px 300px)
       +border-box
       border-right: 1px solid transparentize($xxix-yellow, 0.6)
