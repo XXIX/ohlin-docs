@@ -13,6 +13,18 @@ The Collection Product must be the first Product in the Collection.
 6. Set the template of the Product to `product.collection`
 7. Add the Product to the Collection
 
+## Make Collection 'Not for Sale'
+ 
+You can prevent all items within a collection from being for sale by creating a
+metafield for the collection with the following attributes:
++ namesapce: `shop`
++ key: `not_for_sale`
++ value: `true`
+ 
+To make the items within the Collection for sale, just delete the metafield.
+
+The look and feel of a Collection on the [Collection Listing](https://ohlin.myshopify.com/collections) page is done via the Collection Product.
+
 ## Collection Listing
 
 The look and feel of a Collection on the [Collection Listing](https://ohlin.myshopify.com/collections) page is done via the Collection Product.
