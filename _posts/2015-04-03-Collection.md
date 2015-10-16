@@ -17,6 +17,7 @@ The Collection Product must be the first Product in the Collection.
  
 You can prevent all items within a collection from being for sale by creating a
 metafield for the collection with the following attributes:
+ 
 + namesapce: `shop`
 + key: `not_for_sale`
 + value: `true`
