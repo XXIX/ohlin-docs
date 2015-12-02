@@ -39,6 +39,8 @@ e.g. `#listing-bg-#000000`
 
 The background image can be set by uploading an image and setting the `alt` as `listing-bg`.
 
+A mobile specific background image can be set by uploading an image and setting the `alt` as `listing-bg-mobile`.
+
 ### Collection image
 
 The feature image can be set by uploading an image and setting the `alt` as `listing-image`.
