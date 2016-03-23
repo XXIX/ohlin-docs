@@ -117,7 +117,11 @@ e.g. `campaign-1`
 
 Each row is an independent 12 column grid which is used to place and size the images.
 
+#### List of tags
 
+- `#products-bg-#` background color (right, collection page)
+- `#campaign-bg-#` background color (left, collection page)
+- `#products-text#` text color (above products on collection page)
 
 
 ##### Image position
