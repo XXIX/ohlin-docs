@@ -26,33 +26,74 @@ To make the items within the Collection for sale, just delete the metafield.
 
 The look and feel of a Collection on the [Collection Listing](https://ohlin.myshopify.com/collections) page is done via the Collection Product.
 
+### Title
+
+The title can be set by updating the Collection Product title.
+
 ## Collection Listing
 
 The look and feel of a Collection on the [Collection Listing](https://ohlin.myshopify.com/collections) page is done via the Collection Product.
 
-### Collection background color
+### Lookbook background color
 
 The background color can be set by creating a tag with the prefix `listing-bg-` followed by the color value.  
 e.g. `#listing-bg-#000000`
 
-### Collection background image
+### Lookbook background image
 
 The background image can be set by uploading an image and setting the `alt` as `listing-bg`.
 
 A mobile specific background image can be set by uploading an image and setting the `alt` as `listing-bg-mobile`.
 
-### Collection image
+### Lookbook image
 
 The feature image can be set by uploading an image and setting the `alt` as `listing-image`.
-
-### Collection title
-
-The title can be set by updating the Collection Product title.
 
 ### Collection title Color
 
 The title color can be set by creating a tag with the prefix `listing-color-` followed by the color value.  
 e.g. `#listing-color-#ffffff`
+
+### Show Campaign
+
+If you have a campaign setup then you can show it on the Collection Listing page
+by adding the metafield: `listing-campaign.show` = `true`.
+
+### Campaign background color
+
+The background color can be set by creating a tag with the prefix `listing-campaign-bg-` followed by the color value.  
+e.g. `#listing-campaign-bg-#000000`
+
+### Campaign background image
+
+The background image can be set by uploading an image and setting the `alt` as `listing-campaign-bg`.
+
+A mobile specific background image can be set by uploading an image and setting the `alt` as `listing-campaign-bg-mobile`.
+
+### Campaign image
+
+The feature image can be set by uploading an image and setting the `alt` as `listing-campaign-image`.
+
+### Campaign title Color
+
+The title color can be set by creating a tag with the prefix `listing-campaign-color-` followed by the color value.  
+e.g. `#listing-color-#ffffff`
+
+### Show Video
+
+If you have a video setup then you can show it on the Collection Listing page
+by adding the following metafields:
+
++ `video.title`: Title shown on the bottom of the video
++ `video.cover`: Image URL for the video cover image
++ `video.webm`: URL for webm format of the video
++ `video.ogv`: URL for ogv format of the video
++ `video.mp4`: URL for mp4 format of the video
+
+### Video title color
+
+The title color can be set by creating a tag with the prefix `listing-video-color-` followed by the color value.  
+e.g. `#listing-video-color-#000000`
 
 ### Order of Collections
 
